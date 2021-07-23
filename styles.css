@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	width:100%;
+	height:100vh;
+	font-family:'chunkfiveregular',Tahoma, Geneva;
+	line-height:1.7em;
+	font-size:20px;
+	background-color:#87CEFA;
+}
+header{
+	height:150px;
+}
+a{
+	color:#333;
+	text-decoration:none;
+}
+a:active{
+	color:red;
+}
+#navbar{
+	
+	color:white;
+	overflow:auto;
+
+}
+#navbar a{
+	color:#746AB0;
+	margin:10px;
+	font-size:24px;
+}
+h1{
+color: #dfdfdf;
+
+text-shadow: 4px 4px 0px #000, 
+    -4px 0 0px #000,
+    7px 4px 0 #fff;	
+  font: 35px 'Tahoma';
+  letter-spacing: 6px;
+	padding:10px;
+}
+#navbar ul{
+	list-style-type:none;
+	float:right;
+}
+#navbar ul li{
+	float:left;
+	
+}
+ul li{
+	list-style-type:none;
+}
+a:hover{
+	background-color:#444;
+	color:#F7CO8A;
+}
+h1,h2{
+	padding-bottom:20px;
+}
+p{
+	margin:10px 0;
+	line-height:1.7em;
+}
+i.big{
+	height:150%;
+	width:120%;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+#forms #name{
+	padding:8px 10px;
+	margin:5px;
+}
+.btn{
+	cursor:pointer;
+	display:inline-block;
+	border:none;
+	padding:10px 20px;
+	margin:10px;
+	font-size:16px;
+	background-color:#4c6ca0;
+}
+footer{
+	font-size:15px;
+}
