@@ -7,6 +7,7 @@
   <script src="https://use.fontawesome.com/675d17d0cf.js"></script>
   <link href="fontawesome\css\all.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src = "index.js"></script>
 	</head>
 	<body>
 		<header>
@@ -20,41 +21,36 @@
 				</ul>
 			
 			</nav>
-			<h1 class =  "text"><span> Welcome </span> to my portfolio page </h1>
 		</header>
-		<section id = "about">
-			<h1> About <h1>
-			<h2> hello!!!, my
-name is Hanifat Owuri.</h2>                                                       <p> i'm a front-end developer, an aspiring software engineer and an AI enthusiasts <br> i am open to learning new things</p>
-		</section>
-		<section id = "work">
-			<h1> Work </h1>
-			<div class = "flex">
-			<a href="https://github.com/OWUREE"><i class="fa fa-github fa-10x big" aria-hidden="true"></i></a>
-			<a href="https://codepen.io/neefah"><i class="fa fa-codepen fa-10x big" aria-hidden="true"></i></a>
-			</div>
-		
-		</section>
+	        <section id="welcome-section">  
+	<h1> welcome to my portfolio page.</h1>
+          </section>
+
+		<section id="about"><h2>About</h2>                                              <p>hello!!, my name is owuri hanifat. i am a graduate of computer engineering from the federal university of technology Minna, a front-end developer, an aspiring software engineer,a tech lover, and an AI enthusiasts</p>  </section>                                       <section id="work"><h2>Work</h2>                <ul><p>some of the projects i have done are:</p>                                           <li class="project-tile"><a href="https://codepen.io/Neefah/pen/YzwMwLw"> A Tribute Page</a></li>                                                     <li class="project-tile"><a href="https://codepen.io/Neefah/pen/LYNeOOW"> A Survey Form</a></li>                                                      <li class="project-tile"><a href="https://codepen.io/Neefah/pen/poexwVv"> TiideLab_Assessment Page</a></li>                                           </ul>   
+    	<div class = "flex">                                <a href="https://github.com/OWUREE"><i class="fa fa-github fa-7x" aria-hidden="true"></i></a>                                                    <a href="https://codepen.io/neefah"><i class="fa fa-codepen fa-7x" aria-hidden="true"></i></a>                                                   </div>
+		</section>                                                 
 		<section id = "contact" styles = "border:none;">
-			<h1>Contact</h1>
+			<h2>Contact</h2>
 			<form action = " " method = "POST" id = "forms">
-				<input type = "text" id = "name" name = "Your Name" placeholder = "Your Name"></input>
-				<input type = "email" id = "name" name = "email" placeholder = "Email Address"></input>
+				<input type = "text" id = "name" name = "Your Name" placeholder = "Your Name" required></input>
+				<input type = "email" id = "name" name = "email" placeholder = "Email Address" required></input>
 				<textarea rows = "5" cols = "20" name = "messsge" placeholder = "Drop a  Message"></textarea>
-				<button class = "btn"> send Message </button>
 			</form>   
+			<div class = "flex">
+		  <button class = "btn"> send Message </button>                                        <button onclick="myFunction()" id = "button">Back to Top</button>
+		</div>
 		</section>
 		<footer>
-			<ul class = "flex">
-				<li><a href = "https://twitter.com/Haneefahowuri"><i class="fa fa-twitter-square fa-7x big" aria-hidden="true"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/hanifat-owuri-05863a199"><i class="fa fa-linkedin-square fa-7x big<F11>" aria-hidden="true"></i></a></li>
-				<li><a href="https://github.com/OWUREE"><i class="fa fa-github fa-7xbig" aria-hidden="true"></i></a></li>
+			<h2> Reach Me On:</h2>
+	        	<ul class = "flex">
+				<li><a href = "https://twitter.com/Haneefahowuri"><i class="fa fa-twitter-square fa-7x" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/hanifat-owuri-05863a199"><i class="fa fa-linkedin-square fa-7x" aria-hidden="true"></i></a></li>
+				<li><a href="https://github.com/OWUREE"><i class="fa fa-github fa-7x" aria-hidden="true"></i></a></li>
 			</ul>
 			<div class = "flex">
 			<h4>	&copy:neef's Portfolio;</h4>
-			<button onclick='myFunction()' id = 'btn'>to Top</button>
 
-			</div>
+			</div> 
 		</footer>
 	</body>
 </html>
