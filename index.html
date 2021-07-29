@@ -1,57 +1,84 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title> My Portfolio Page </title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-  <script src="https://kit.fontawesome.com/c7e76dfb9f.js" crossorigin="anonymous"></script>
-  <script src="https://use.fontawesome.com/675d17d0cf.js"></script>
-  <link href="fontawesome\css\all.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script src = "index.js"></script>
-	</head>
-	<body>
-		<header>
-			<nav id = "navbar">
-				<ul>
-					<li><a href="#about">About
-  </li>
-  <li><a href="#work">Work</a> </li>
-  <li><a href="#contact"> Contact </a></li>
-
-				</ul>
-			
-			</nav>
-		</header>
-	        <section id="welcome-section">  
-	<h1> welcome to my portfolio page.</h1>
-          </section>
-
-		<section id="about"><h2>About</h2>                                              <p>hello!!, my name is owuri hanifat. i am a graduate of computer engineering from the federal university of technology Minna, a front-end developer, an aspiring software engineer,a tech lover, and an AI enthusiasts</p>  </section>                                       <section id="work"><h2>Work</h2>                <ul><p>some of the projects i have done are:</p>                                           <li class="project-tile"><a href="https://codepen.io/Neefah/pen/YzwMwLw"> A Tribute Page</a></li>                                                     <li class="project-tile"><a href="https://codepen.io/Neefah/pen/LYNeOOW"> A Survey Form</a></li>                                                      <li class="project-tile"><a href="https://codepen.io/Neefah/pen/poexwVv"> TiideLab_Assessment Page</a></li>                                           </ul>   
-    	<div class = "flex">                                <a href="https://github.com/OWUREE"><i class="fa fa-github fa-7x" aria-hidden="true"></i></a>                                                    <a href="https://codepen.io/neefah"><i class="fa fa-codepen fa-7x" aria-hidden="true"></i></a>                                                   </div>
-		</section>                                                 
-		<section id = "contact" styles = "border:none;">
-			<h2>Contact</h2>
-			<form action = " " method = "POST" id = "forms">
-				<input type = "text" id = "name" name = "Your Name" placeholder = "Your Name" required></input>
-				<input type = "email" id = "name" name = "email" placeholder = "Email Address" required></input>
-				<textarea rows = "5" cols = "20" name = "messsge" placeholder = "Drop a  Message"></textarea>
-			</form>   
-			<div class = "flex">
-		  <button class = "btn"> send Message </button>                                        <button onclick="myFunction()" id = "button">Back to Top</button>
-		</div>
-		</section>
-		<footer>
-			<h2> Reach Me On:</h2>
-	        	<ul class = "flex">
-				<li><a href = "https://twitter.com/Haneefahowuri"><i class="fa fa-twitter-square fa-7x" aria-hidden="true"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/hanifat-owuri-05863a199"><i class="fa fa-linkedin-square fa-7x" aria-hidden="true"></i></a></li>
-				<li><a href="https://github.com/OWUREE"><i class="fa fa-github fa-7x" aria-hidden="true"></i></a></li>
-			</ul>
-			<div class = "flex">
-			<h4>	&copy:neef's Portfolio;</h4>
-
-			</div> 
-		</footer>
-	</body>
-</html>
-
+  <head>   
+   <title> My Portfolio Page </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://kit.fontawesome.com/c7e76dfb9f.js" crossorigin="anonymous">
+    </script>
+    <script src="https://use.fontawesome.com/675d17d0cf.js">
+    </script>
+    <link rel="stylesheet" href="index.css">
+    <script src = "index.js"></script>
+  </head>
+  <body>
+   <header>
+     <nav id = "navbar">
+       <ul>
+         <li><a href="#about">About</a></li>
+         <li><a href="#work">Work</a></li>
+     <li><a href="#contact">Contact</a></li>
+         </ul>
+      </nav>
+   </header>
+   <section id="welcome-section">         <h1> welcome to my portfolio page.</h1>
+   </section>
+   <section id="about"><h2>About</h2>
+    <p>hello!!, my name is owuri hanifat. i am a graduate of computer engineering from the federal university of technology Minna, a front-end developer, an aspiring software engineer,a tech lover, and an AI enthusiast.</p>
+    <h2> TiideLab Moments </h2>
+    <div class= "grid-container">          <figure class="fig_img_1">                 <img src = "/images/IMG_1.jpg" class="gallery_img">  
+      </figure>
+      <figure class="fig_img_2">               <img src = "/images/IMG_2.jpg" class="gallery_img">  
+      </figure>
+      <figure class="fig_img_3">              <img src = "/images/IMG_3.jpg" class="gallery_img">  
+      </figure>
+      <figure class="fig_img_4">               <img src = "/images/IMG_4.jpg" class="gallery_img">  
+      </figure>
+      <figure class="fig_img_5">               <img src = "/images/IMG_5.jpg" class="gallery_img">  
+      </figure>
+      <figure class="fig_img_6">               <img src = "/images/IMG_6.jpg" class="gallery_img">  
+      </figure>
+      <figure class="fig_img_7">               <img src = "/images/IMG_7.jpg" class="gallery_img">  
+      </figure>
+      <figure class="fig_img_8">            <img src = "/images/IMG_8.jpg" class="gallery_img">  
+      </figure>
+    </div>
+   </section>
+   <section id="work">
+     <h2>Work</h2>             
+     <ul><p>some of the projects i have done are:</p>
+       <li><a href="https://codepen.io/Neefah/pen/YzwMwLw"> A Tribute Page</a></li>
+       <li><a href="https://codepen.io/Neefah/pen/LYNeOOW"> A Survey Form</a></li>
+       <li class="project-tile"><a href="https://codepen.io/Neefah/pen/poexwVv"> TiideLab_Assessment Page</a></li>
+      </ul>
+      <div class = "flex">      
+       <a href="https://github.com/OWUREE"><i class="fa fa-github fa-7x" aria-hidden="true"></i></a>
+      <a href="https://codepen.io/neefah"><i class="fa fa-codepen fa-7x" aria-hidden="true"></i></a>
+    </div>
+   </section>
+   <section id = "contact" styles = "border:none;">               
+     <h2>Contact</h2>
+     <form action="" method = "POST" target="_blank" id = "forms">
+       <label for="name"></label>
+       <input type = "text" id = "name" name = "Your Name" placeholder = "Your Name" required></input>
+       <label for="name"></label>
+       <input type = "email" id = "name" name = "email" placeholder = "Email Address" required></input>
+       <textarea rows = "5" cols = "23" name = "message" placeholder = "Drop a Message"></textarea>
+       <div class = "flex">
+       <button class = "btn"> send Message</button>
+      
+      </div>
+     </form>
+     <button onclick="myFunction()" id = "button">Back to Top</button>
+   
+   </section>
+   <footer>                        
+    <h2> Reach Me On:</h2>      
+    <ul class = "flex">      
+     <li><a href = "https://twitter.com/Haneefahowuri"><i class="fa fa-twitter-square fa-7x" aria-hidden="true"></i></a></li>    
+     <li><a href="https://www.linkedin.com/in/hanifat-owuri-05863a199"><i class="fa fa-linkedin-square fa-7x" aria-hidden="true"></i></a></li>
+     <li><a href="https://github.com/OWUREE"><i class="fa fa-github fa-7x" aria-hidden="true"></i></a></li>
+    </ul>
+    <h4> &copy:neef's Portfolio;</h4>
+   </footer>
+  </body>
+  </html>
