@@ -40,6 +40,9 @@ h1, h2{
   list-style-type: none;
   float: left;
 }
+li{
+  list-style-type: none;
+}
  li > a{
   text-decoration: none;
   margin: 0.5em;
@@ -160,3 +163,5 @@ textarea{
   color:#FFF;
   padding:3px 5px;
 }
+hr{
+  margin-bottom: 0.5em;
